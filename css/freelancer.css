@@ -67,6 +67,10 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto;
 }
+.profile-picture {
+  width: 200px;
+  border-radius: 100px;
+}
 header {
   text-align: center;
   background: #18BC9C;
@@ -93,7 +97,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 100px;
   }
   header .intro-text .name {
